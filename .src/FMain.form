@@ -1,0 +1,30 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,64,64)
+  { Button1 Button
+    MoveScaled(19,29,15,7)
+    Text = ("Clique Aqui")
+  }
+  { Label1 Label
+    MoveScaled(19,16,15,4)
+    Background = Color.Cyan
+  }
+  { Label2 Label
+    MoveScaled(34,16,22,4)
+    Background = Color.DarkBlue
+    Foreground = Color.Red
+  }
+  { Button2 Button
+    MoveScaled(34,29,8,7)
+    Text = ("+")
+  }
+  { Button3 Button
+    MoveScaled(42,29,7,7)
+    Text = ("+10")
+  }
+  { Button4 Button
+    MoveScaled(49,29,7,7)
+    Text = ("+100")
+  }
+}

@@ -1,0 +1,38 @@
+' Gambas class file
+
+
+Public Sub Button1_Click()
+
+ Let Label1.Text = "Hello Gambas"
+ 
+ 
+ 
+
+End
+
+Public Sub Form_Open()
+  Let Label2.Text = "0"
+  
+End
+
+Public Sub Button2_Click()
+  _Add_To_Label(Label2, 1)
+End
+
+Public Sub Button3_Click()
+  _Add_To_Label(Label2, 10)
+End
+
+
+Public Sub Button4_Click()
+  _Add_To_Label(Label2, 100)
+End
+
+Private Sub _Add_To_Label(lab As Label, value As Integer)
+  
+  Dim a As Integer
+  Let a = CInteger(Val(lab.Text))
+  Let a = a + value
+  Let lab.Text = CString(a)
+  
+End
